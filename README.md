@@ -1,7 +1,7 @@
 # Discovery of Potent Prognostic Biomarkers in Cancer
 
 ## Overview
-This project explores the use of a machine learning-based pipeline for the discovery of prognostic biomarkers in **breast cancer** using **bulk mRNA-sequencing (mRNA-Seq)** data. Rather than aiming for a single fixed solution, the objective is to demonstrate a range of computational techniques including differential expression analysis, dimensionality reduction, unsupervised clustering, and visualisation that can support biomarker discovery.
+Hello. This project explores the use of a machine learning-based pipeline for the discovery of prognostic biomarkers in **breast cancer** using **bulk mRNA-sequencing (mRNA-Seq)** data. Rather than aiming for a single fixed solution, the objective is to demonstrate a range of computational techniques including differential expression analysis, dimensionality reduction, unsupervised clustering, and visualisation that can support biomarker discovery.
 
 The pipeline is developed in a tutorial-style format to guide researchers through each analytical stage, offering flexibility in method selection and reproducible results. The final outcome is intended to serve as a resource for biologists and data scientists seeking practical tools to explore transcriptomic datasets in cancer research.
 
