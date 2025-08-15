@@ -7,7 +7,7 @@ The pipeline is developed in a tutorial-style format to guide researchers throug
 
 ## Objectives
 
-- **Differential Expression Analysis**: Identify significantly up- or down-regulated genes between clinical subgroups using PyDESeq2.
+- **Differential Expression Analysis**: Identify significantly up- or down-regulated genes between clinical subgroups using the inmoose Python library (edgeR port).
 - **Dimensionality Reduction**: Use PCA, t-SNE, or UMAP to reduce data complexity and uncover dominant patterns.
 - **Unsupervised Clustering**: Categorise tumour samples based on gene expression profiles using algorithms like K-means and hierarchical clustering.
 - **Biomarker Discovery**: Output ranked gene lists from multiple approaches (e.g. DEGs, cluster representatives) and visualise their overlaps via Venn diagrams.
