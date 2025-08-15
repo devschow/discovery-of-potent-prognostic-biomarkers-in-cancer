@@ -22,6 +22,9 @@ The study utilises a large-scale breast cancer dataset (GSE202203) from the **SC
 
 All data used is fully anonymised, open-access, and ethically compliant.
 
+**Citation:**  
+Dalal H, Dahlgren M, Gladchuk S, Brueffer C, et al. *Clinical associations of ESR2 (estrogen receptor beta) expression across thousands of primary breast tumors*. **Sci Rep**. 2022 Mar 18;12(1):4696. PMID: [35304506](https://pubmed.ncbi.nlm.nih.gov/35304506/)
+
 ## Methodology
 *(To be filled)*  
 The methodology section will describe each computational stage, including preprocessing, normalisation, feature selection, model training, and visualisation.
