@@ -42,3 +42,8 @@ Special thanks to the mentors and research inspirations who guided the conceptua
 
 ## Ethical Compliance
 This project uses anonymised human transcriptomic data retrieved from open-access sources (GEO). No personally identifiable information is used, and all project activities comply with ethical guidelines under Category D2.
+
+## License
+
+- **Code and notebooks**: Licensed under the [MIT License](LICENSE).  
+- **Documentation and figures**: Licensed under [CC BY 4.0](LICENSE-docs.md).
