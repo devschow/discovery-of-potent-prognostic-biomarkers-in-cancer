@@ -8,8 +8,7 @@ The pipeline is developed in a tutorial-style format to guide researchers throug
 ## Objectives
 
 - **Differential Expression Analysis**: Identify significantly up- or down-regulated genes between clinical subgroups using the InMoose Python library (edgeR port).
-- **Dimensionality Reduction**: Use PCA, t-SNE, or UMAP to reduce data complexity and uncover dominant patterns.
-- **Unsupervised Clustering**: Categorise tumour samples based on gene expression profiles using algorithms like K-means and hierarchical clustering.
+- **Dimensionality Reduction**: Use PCA to reduce data complexity and uncover dominant patterns.
 - **Biomarker Discovery**: Output ranked gene lists from multiple approaches (e.g. DEGs, cluster representatives) and visualise their overlaps via Venn diagrams.
 - **Visual Outputs**: Provide visualisation at each stage to aid biological interpretation, including volcano plots, clustermaps, and PCA scatterplots.
 
@@ -26,12 +25,17 @@ All data used is fully anonymised, open-access, and ethically compliant.
 Dalal H, Dahlgren M, Gladchuk S, Brueffer C, et al. *Clinical associations of ESR2 (estrogen receptor beta) expression across thousands of primary breast tumors*. **Sci Rep**. 2022 Mar 18;12(1):4696. PMID: [35304506](https://pubmed.ncbi.nlm.nih.gov/35304506/)
 
 ## Methodology
-*(To be filled)*  
-The methodology section will describe each computational stage, including preprocessing, normalisation, feature selection, model training, and visualisation.
+1. **Preprocessing & QC** → filter low-count genes.  
+2. **Normalisation & Transformation** → **TMM** (via `conorm`), log₂ transform, scaling.  
+3. **DEA** → `inmoose` GLM-LRT on subgroups (e.g., **LumA vs Basal**, **ER+ vs ER−**).  
+4. **PCA** → variance structure and sample separation.  
+6. **Biomarker Output** → ranked CSVs, volcano plots, overlap summaries.
 
 ## Results
-*(To be filled)*  
-This section will include analytical findings, key genes identified as biomarkers, clustering outputs, and performance evaluations of various ML methods.
+- Processed **>3,200** SCAN-B samples end-to-end.  
+- Identified DEGs for **LumA vs Basal** contrasts.  
+- **PCA** patterns consistent with **PAM50** and receptor status.  
+- Reproducible outputs: **ranked gene lists** (CSV) and figures (volcano, PCA, dendrogram).
 
 ## Acknowledgements
 
