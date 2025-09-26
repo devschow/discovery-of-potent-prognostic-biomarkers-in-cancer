@@ -34,8 +34,8 @@ Dalal H, Dahlgren M, Gladchuk S, Brueffer C, et al. *Clinical associations of ES
 ## Results
 - Processed **>3,200** SCAN-B samples end-to-end.  
 - Identified DEGs for **LumA vs Basal** contrasts.  
-- **PCA** patterns consistent with **PAM50** and receptor status.  
-- Reproducible outputs: **ranked gene lists** (CSV) and figures (volcano, PCA, dendrogram).
+- **PCA** plots.  
+- Reproducible outputs: **ranked gene lists** (CSV) and figures (volcano, PCA).
 
 ## Acknowledgements
 
