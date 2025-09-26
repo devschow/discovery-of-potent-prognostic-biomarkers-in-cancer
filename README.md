@@ -27,7 +27,7 @@ Dalal H, Dahlgren M, Gladchuk S, Brueffer C, et al. *Clinical associations of ES
 ## Methodology
 1. **Preprocessing & QC** → filter low-count genes.  
 2. **Normalisation & Transformation** → **TMM** (via `conorm`), log₂ transform, scaling.  
-3. **DEA** → `inmoose` GLM-LRT on subgroups (e.g., **LumA vs Basal**, **ER+ vs ER−**).  
+3. **DEA** → `inmoose` GLM-LRT on subgroups (e.g., **LumA vs Basal**).  
 4. **PCA** → variance structure and sample separation.  
 6. **Biomarker Output** → ranked CSVs, volcano plots, overlap summaries.
 
