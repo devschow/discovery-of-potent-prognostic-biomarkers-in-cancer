@@ -73,7 +73,7 @@ Dalal H, Dahlgren M, Gladchuk S, Brueffer C, et al. *Clinical associations of ES
 
 ## 5. Pipeline Overview
 
-<img src="assets/pipeline_schematic.jpg" width="85%" alt="Pipeline schematic">
+<img src="assets/pipeline_schematic.jpg" width="90%" alt="Pipeline schematic">
 
 
 This schematic illustrates the end-to-end workflow, from preprocessing and normalisation to differential expression and PCA-based interpretation.
