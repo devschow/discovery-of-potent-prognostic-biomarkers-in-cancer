@@ -30,7 +30,7 @@ The pipeline is developed in a tutorial-style format to guide researchers throug
 - **Metadata includes:**  
   - Age at diagnosis  
   - Tumour size and lymph node status  
-  - Hormone receptor status (ER, PR, HER2)  
+  - Hormone receptor status (ER, HER2)  
   - PAM50 subtype (e.g., LumA, Basal)  
   - Treatment and survival data 
 
