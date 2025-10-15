@@ -73,7 +73,8 @@ Dalal H, Dahlgren M, Gladchuk S, Brueffer C, et al. *Clinical associations of ES
 
 ## 5. Pipeline Overview
 
-![Pipeline schematic placeholder](assets/pipeline_schematic.jpg)
+<img src="assets/pipeline_schematic.jpg" width="85%" alt="Pipeline schematic">
+
 
 This schematic illustrates the end-to-end workflow, from preprocessing and normalisation to differential expression and PCA-based interpretation.
 
@@ -81,7 +82,7 @@ This schematic illustrates the end-to-end workflow, from preprocessing and norma
 
 ## 6. Project File Structure
 
-![Repository file organisation placeholder](assets/file_organisation.jpg)
+<img src="assets/file_organisation.jpg" width="70%" alt="Project file structure">
 
 Each Jupyter Notebook corresponds to a specific stage of the analysis:
 
@@ -103,11 +104,11 @@ All results are reproducible, with ranked gene lists (CSV) and visual outputs ge
 
 | Top 20 Differentially Expressed Genes | Volcano Plot (Differential Expression) |
 |:--------------------------------------:|:--------------------------------------:|
-| ![Top 20 DEGs](assets/top20_deg_genes.jpg) | ![Volcano Plot](results/plots/volcano_LumA_vs_Basal.png) |
+| <img src="assets/top20_deg_genes.jpg" width="420" alt="Top 20 DEGs"> | <img src="results/plots/volcano_LumA_vs_Basal.png" width="420" alt="Volcano Plot"> |
 
 | PCA (Variance Structure) | Venn Diagram (Overlap Summary) |
 |:-------------------------:|:-------------------------------:|
-| ![PCA Plot](results/plots/pca_plot.png) | ![Venn Diagram](results/plots/venn_pc4_dea.png) |
+| <img src="results/plots/pca_plot.png" width="420" alt="PCA Plot"> | <img src="results/plots/venn_pc4_dea.png" width="420" alt="Venn Diagram"> |
 
 
 ---
