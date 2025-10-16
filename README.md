@@ -16,7 +16,7 @@ The pipeline is developed in a tutorial-style format to guide researchers throug
 - **Differential Expression Analysis**: Identify significantly up- or down-regulated genes between clinical subgroups using the InMoose Python library (edgeR port).
 - **Dimensionality Reduction**: Use PCA to reduce data complexity and uncover dominant patterns.
 - **Biomarker Discovery**: Output ranked gene lists from multiple approaches (e.g. DEGs, cluster representatives) and visualise their overlaps via Venn diagrams.
-- **Visual Outputs**: Provide visualisation at each stage to aid biological interpretation, including volcano plots, clustermaps, and PCA scatterplots.
+- **Visual Outputs**: Provide visualisation at each stage to aid biological interpretation, including volcano plots, PCA scatterplots, Venn diagrams, and ranked gene summaries.
 
 ---
 
