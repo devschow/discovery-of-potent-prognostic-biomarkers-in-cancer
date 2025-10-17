@@ -5,7 +5,7 @@
 ---
 
 ## 1. Overview
-This project explores the use of a machine learning-based pipeline for the discovery of prognostic biomarkers in **breast cancer** using **bulk mRNA-sequencing (mRNA-Seq)** data. Rather than aiming for a single fixed solution, the objective is to demonstrate a range of computational techniques including differential expression analysis, dimensionality reduction, unsupervised clustering, and visualisation that can support biomarker discovery.
+This project explores the use of a machine learning-based pipeline for the discovery of prognostic biomarkers in **breast cancer** using **bulk mRNA-sequencing (mRNA-Seq)** data. Rather than aiming for a single fixed solution, the objective is to demonstrate a range of computational techniques including differential expression analysis, data normalisation, dimensionality reduction, and visualisation that support biomarker discovery.
 
 The pipeline is developed in a tutorial-style format to guide researchers through each analytical stage, offering flexibility in method selection and reproducible results. The final outcome is intended to serve as a resource for biologists and data scientists seeking practical tools to explore transcriptomic datasets in cancer research.
 
@@ -15,8 +15,9 @@ The pipeline is developed in a tutorial-style format to guide researchers throug
 
 - **Differential Expression Analysis**: Identify significantly up- or down-regulated genes between clinical subgroups using the InMoose Python library (edgeR port).
 - **Dimensionality Reduction**: Use PCA to reduce data complexity and uncover dominant patterns.
-- **Biomarker Discovery**: Output ranked gene lists from multiple approaches (e.g. DEGs, cluster representatives) and visualise their overlaps via Venn diagrams.
+- **Biomarker Discovery**: Output ranked gene lists from multiple approaches (e.g. DEGs, PCA loading values) and visualise their overlaps via Venn diagrams.
 - **Visual Outputs**: Provide visualisation at each stage to aid biological interpretation, including volcano plots, PCA scatterplots, Venn diagrams, and ranked gene summaries.
+- **Open Accessibility**: Ensure all code, documentation, and example results are publicly available through an open-source GitHub repository to promote reproducibility and transparency.
 
 ---
 
