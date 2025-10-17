@@ -131,4 +131,4 @@ Special thanks to the mentors and research inspirations who guided the conceptua
 ## 10. License
 
 - **Code and notebooks**: Licensed under the [MIT License](LICENSE).  
-- **Documentation and figures**: Licensed under [CC BY 4.0](LICENSE-docs.md).
+- **Documentation and figures**: Licensed under [CC BY 4.0](LICENSE-docs).
